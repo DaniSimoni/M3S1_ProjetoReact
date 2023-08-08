@@ -1,14 +1,26 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import { Layout } from './Layout/Layout';
+import { HomePage } from './Pages/HomePage/HomePage'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <>
-      <h1>Hello Team</h1> 
-      <p>Página APP para a criação das rotas</p>
-    </>
+    <Router>
+      <Routes>
+
+        <Route path='/' element={<Layout/>} >
+            
+            <Route path='/' element={<HomePage/>}/>
+
+
+        </Route>
+      </Routes>
+     
+    </Router>
   )
 }
 
