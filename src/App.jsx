@@ -3,7 +3,6 @@ import { Layout } from './layout/Layout';
 import { HomePage } from './pages/HomePage/HomePage'
 
 
-
 function App() {
  
 
@@ -17,6 +16,7 @@ function App() {
 
 
         </Route>
+        <Route path='/login' element={<LoginPage/>} />
       </Routes>
      
     </Router>
