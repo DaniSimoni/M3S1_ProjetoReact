@@ -23,7 +23,7 @@ export const Input = styled.input`
     padding: 0.8125rem 15.1875rem 1.1875rem 0.75rem;
     border-radius: 0.9375rem;
     font-size: .8rem;
-    border: 1px solid ${({$hasError}) => {return $hasError ? '#EE0808' : '#3C9B2C'}};
+    border: 1px solid ${({$hasError}) => {return $hasError ? '#EE0808' : '#D9D9D9'}};
 
     &::placeholder{
         color: ${({$hasError}) => $hasError ? '#EE0808' : 'rgba(0, 0, 0, 0.40);'};
