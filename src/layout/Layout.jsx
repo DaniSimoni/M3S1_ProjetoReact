@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import * as Styled from './Layout.style';
-import { HeaderComponent } from "../Components/Header/HeaderComponente";
+import { HeaderComponent } from "../components/Header/HeaderComponente";
 
 
 export const Layout = () => {
@@ -19,8 +19,7 @@ const render = () => {
                 </Styled.HeaderLayout>
 
                 <Styled.Content>
-                    Conteudo
-                <Outlet />
+                    <Outlet />
                 </Styled.Content>
 
             </Styled.MainLayout>

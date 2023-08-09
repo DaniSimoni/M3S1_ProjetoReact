@@ -45,3 +45,14 @@ export const SectionButtonHeader = styled.section`
 
 
 `
+
+export const IconCarrinho = styled.button`
+    background-color: transparent;
+    border: transparent;
+    width: 5vw;
+    height: 5vw;
+    svg{
+        font-size: 2rem;
+        color: green;
+    }
+`
