@@ -58,6 +58,10 @@ export const Button = styled.button`
     &:disabled {
         cursor: not-allowed;
     }
+
+    &:hover {
+        opacity: .85;
+    }
 `
 
 Button.propTypes = {

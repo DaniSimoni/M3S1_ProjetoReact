@@ -1,3 +1,4 @@
+import { InputComponent } from '../../Input/InputComponent';
 import * as Styled from './FormLoginComponent.style';
 
 export const FormLoginComponent = () => {
@@ -7,15 +8,21 @@ export const FormLoginComponent = () => {
                 <h1>Login</h1>
             </Styled.FormHeader>
             <Styled.InputBox>
-                <div>
-                    <label htmlFor="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite seu email" />
-                </div>
+                <InputComponent 
+                    label="E-mail"
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
 
-                <div>
-                    <label htmlFor="password">Senha</label>
-                    <input type="password" id="password" placeholder="Digite sua senha" />
-                </div>
+                />
+
+                <InputComponent 
+                    label="Senha"
+                    type="password"
+                    id="password"
+                    placeholder="Digite sua senha"
+                    
+                />
 
             </Styled.InputBox>
             
