@@ -4,7 +4,13 @@ import * as Styled from './LoginPage.style.jsx';
 export const LoginPage = () => {
     return (
         <Styled.LoginPageContainer>
-            <FormLoginComponent />
+            <Styled.LoginCard>
+                <Styled.ImageBox>
+                    
+                </Styled.ImageBox>
+
+                <FormLoginComponent />
+            </Styled.LoginCard>
         </Styled.LoginPageContainer>
     )
 }

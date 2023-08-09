@@ -10,7 +10,7 @@ export const Form = styled.form`
     padding: 3rem;
     gap: 1rem;
 
-    background-color: #f2f2f2;
+    background-color: #fff;
 `;
 
 export const FormHeader = styled.legend`

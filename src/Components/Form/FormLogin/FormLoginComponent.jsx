@@ -9,7 +9,6 @@ export const FormLoginComponent = () => {
             </Styled.FormHeader>
             <Styled.InputBox>
                 <InputComponent 
-                    label="E-mail"
                     type="email"
                     id="email"
                     placeholder="Digite seu e-mail"
@@ -17,7 +16,6 @@ export const FormLoginComponent = () => {
                 />
 
                 <InputComponent 
-                    label="Senha"
                     type="password"
                     id="password"
                     placeholder="Digite sua senha"
