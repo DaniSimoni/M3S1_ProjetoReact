@@ -7,13 +7,16 @@ export const HomePage = () => {
     const { setData } = useContext(HeaderContext)
     useEffect(() => {
       setData({       
-        iconHeader: '../../../public/images/userIcon.png',
+        iconHeader: '/images/userIcon.png',
         buttonHeader: 'Olá, Nome' ,
     }) 
         
       }, []);
-    return(
 
-      <></>
+
+    return(
+      <Styled.BodyHome>
+        <Styled.Titulo>Olá</Styled.Titulo>
+      </Styled.BodyHome>
     )
 }
