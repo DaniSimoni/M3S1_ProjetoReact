@@ -15,11 +15,11 @@ const render = () => {
             <Styled.MainLayout>
 
                 <Styled.HeaderLayout>
-                <HeaderComponent/>
+                    <HeaderComponent/>
                 </Styled.HeaderLayout>
 
                 <Styled.Content>
-                    <Outlet />
+                    <Outlet/>
                 </Styled.Content>
 
             </Styled.MainLayout>
