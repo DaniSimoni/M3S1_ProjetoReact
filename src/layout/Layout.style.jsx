@@ -15,14 +15,14 @@ export const HeaderLayout = styled.div`
     width: 100vw;
     height: 20vh;
     justify-content: center;
-    background-color: green;
+    background-color: white;
 `
 
 export const MainLayout = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: gray;
+    background-color: white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;

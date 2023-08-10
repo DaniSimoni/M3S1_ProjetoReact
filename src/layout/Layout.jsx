@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import * as Styled from './Layout.style';
+import { HeaderComponent } from "../components/Header/HeaderComponente";
 
 
 export const Layout = () => {
@@ -14,12 +15,11 @@ const render = () => {
             <Styled.MainLayout>
 
                 <Styled.HeaderLayout>
-                Layout Header
+                    <HeaderComponent/>
                 </Styled.HeaderLayout>
 
                 <Styled.Content>
-                    Conteudo
-                <Outlet />
+                    <Outlet/>
                 </Styled.Content>
 
             </Styled.MainLayout>
